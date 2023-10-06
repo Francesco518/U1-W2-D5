@@ -67,8 +67,8 @@ const cars = [
 ]
 
 let licensePlate = "licensePlate"
-for (let i = 0; i < licensePlate; i++)
-cars.push("licensePlate"[i])
+for (let i = 0; i < licensePlate-1; i++)
+cars.push("licensePlate"[3])
 console.log(cars)
 
 
